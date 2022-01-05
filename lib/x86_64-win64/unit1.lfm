@@ -1,0 +1,71 @@
+object Form1: TForm1
+  Left = 314
+  Height = 457
+  Top = 222
+  Width = 594
+  BorderStyle = bsDialog
+  Caption = 'FreeEDR Standalone Installer'
+  ClientHeight = 457
+  ClientWidth = 594
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '2.0.12.0'
+  object Button1: TButton
+    Left = 24
+    Height = 57
+    Top = 376
+    Width = 551
+    Caption = 'Click HERE to start install && CLICK YES AGAIN WHEN PROMPTED'
+    Font.Height = -16
+    Font.Style = [fsBold]
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 112
+    Height = 100
+    Top = 8
+    Width = 362
+    Caption = 'FreeEDR installation needs the following:'#13#10'- Windows 10 64bit or later'#13#10'- Internet connection'#13#10'- Admin account for admin mode'
+    Font.Height = -19
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 24
+    Height = 170
+    Top = 120
+    Width = 552
+    Font.Height = -13
+    Lines.Strings = (
+      'This SOFTWARE PRODUCT is provided by THE PROVIDER "as is" and "with all faults." THE PROVIDER makes no representations or warranties of any kind concerning the safety, suitability, lack of viruses, inaccuracies, typographical errors, or other harmful components of this SOFTWARE PRODUCT. You are solely responsible for determining whether this SOFTWARE PRODUCT is compatible with your equipment and other software installed on your equipment. You are also solely responsible for the protection of your equipment and backup of your data, and THE PROVIDER will not be liable for any damages you may suffer in connection with using, modifying, or distributing this SOFTWARE PRODUCT.'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 21
+    Top = 336
+    Width = 551
+    Caption = 'By clicking install below, you have understood && agreed with the above.'
+    Font.Height = -16
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 21
+    Top = 304
+    Width = 534
+    Caption = 'A prompt will POP UP, it’s PART OF the installation. DON’T BE alarmed.'
+    Font.Height = -16
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
